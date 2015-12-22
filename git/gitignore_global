@@ -1,0 +1,6 @@
+*~
+.DS_Store
+# Merge tool temporary files
+*.orig
+.coverrun
+.idea

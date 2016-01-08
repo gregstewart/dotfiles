@@ -80,8 +80,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="$PATH:$HOME/.nvm/nvm.sh"
-[[ -s "$HOME/.nvm" ]] && . "$HOME/.nvm/nvm.sh"
+export NVM_DIR=~/.nvm
+. $(brew --prefix nvm)/nvm.sh
 export PATH="$PATH:/opt/homebrew-cask/Caskroom/firefox/37.0.2/Firefox.app/Contents/MacOS/firefox"
 export ANDROID_HOME=/usr/local/opt/android-sdk
-#$(boot2docker shellinit) > /dev/null

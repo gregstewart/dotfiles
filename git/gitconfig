@@ -4,6 +4,7 @@
 	user = Greg Stewart
 	email = greg.stewart@red-badger.com
 	excludesfile = /Users/gregstewart/.gitignore_global
+	editor = atom --wait
 [user]
 	name = 
 	email = gregs@tcias.co.uk

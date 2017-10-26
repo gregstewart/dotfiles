@@ -83,8 +83,6 @@ source /usr/local/share/zsh/site-functions/_aws
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export NVM_DIR=~/.nvm
 . $(brew --prefix nvm)/nvm.sh
-export PATH="$PATH:/opt/homebrew-cask/Caskroom/firefox/37.0.2/Firefox.app/Contents/MacOS/firefox"
-export ANDROID_HOME=/usr/local/opt/android-sdk
 
 # place this after nvm initialization!
 autoload -U add-zsh-hook

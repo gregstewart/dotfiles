@@ -2,17 +2,11 @@
 [core]
 # Please adapt and uncomment the following lines:
 	user = Greg Stewart
-	email = greg.stewart@red-badger.com
+	email = gregs@tcias.co.uk
 	excludesfile = /Users/gregstewart/.gitignore_global
 	editor = atom --wait
 [user]
-	name = 
+	name = Greg Stewart
 	email = gregs@tcias.co.uk
 [push]
 	default = simple
-[difftool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --nosplash \"$LOCAL\" \"$REMOTE\"
-	path = 
-[mergetool "sourcetree"]
-	cmd = /opt/homebrew-cask/Caskroom/diffmerge/4.2.0.697/DiffMerge.app/Contents/MacOS/DiffMerge --merge --result=\"$MERGED\" \"$LOCAL\" \"$BASE\" \"$REMOTE\"
-	trustExitCode = true

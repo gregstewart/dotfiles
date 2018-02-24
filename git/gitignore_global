@@ -4,3 +4,4 @@
 *.orig
 .coverrun
 .idea
+*.lock
